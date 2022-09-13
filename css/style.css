@@ -71,6 +71,37 @@ footer {
     border: 3px solid black;
 }
 
+section {
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+section.moreInfo {
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+section.contactInfo {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+aside {
+    height: 500px;
+    width: 50%;
+    text-align: center;
+    border: 3px solid black;
+    float: right;
+}
+
 /* aside {
     height: 500px;
     width: 50%;
