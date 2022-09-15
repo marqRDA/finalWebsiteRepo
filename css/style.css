@@ -5,6 +5,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a:visited {
+    color: #45a049;
+}
+
+a:link {
+    color: #45a049;
+}
+
 header {
     width: 100%;
     height: 25px;
@@ -12,26 +20,39 @@ header {
     color: red;
     font-style: italic;
     font-size: 15px;
+    background-color: black;
 }
 
 nav {
     width: 100%;
     height: 60px;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 nav ul li {
     float: right;
     padding: 15px;
     list-style: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+.title {
+    position: absolute;
+    color: brown;
+    box-shadow: 5px 10px black;
 }
 
 .hero {
     height: 500px;
     width: 100%;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     /* float: right; */
 }
 
@@ -39,7 +60,8 @@ nav ul li {
     height: 250px;
     width: 100%;
     text-align: center;
-    border: 3px solid black;
+    line-height: 2;
+    /* border: 3px solid black; */
     /* float: right; */
 }
 
@@ -56,27 +78,37 @@ nav ul li {
     height: 150px;
     width: 100%;
     text-align: center;
+    line-height: 2;
     border: 3px solid black;
 }
 
 .social ul li {
-    list-style: none;
-    float: left;
+    list-style: none ;
+    display: inline;
+    /* float: left; */
+    text-align: center;
     padding: 50px;
+}
+
+.social ul li a {
+    margin: 5px;
 }
 
 footer {
     height: 90px;
     width: 100%;
+    padding: 50px;
     text-align: center;
-    border: 3px solid black;
+    position: absolute;
+    background-color: #45a049;
+    /* border: 3px solid black; */
 }
 
 section {
     height: 500px;
     width: 50%;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 
 }
 
@@ -84,7 +116,7 @@ section.moreInfo {
     height: 300px;
     width: 50%;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 
 }
 
@@ -93,15 +125,21 @@ section.contactInfo {
     height: 100px;
     width: 100%;
     text-align: center;
-    border: 3px solid black;
+    padding: 10px;
+    /* border: 3px solid black; */
 }
 
 aside {
     height: 500px;
     width: 50%;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     float: right;
+}
+
+.moreAboutInfo {
+    padding: 50px;
+    line-height: 2;
 }
 
 /* Style inputs with type="text", select elements and textareas */
