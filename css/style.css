@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -86,6 +87,7 @@ section.moreInfo {
     border: 3px solid black;
 
 }
+
 
 section.contactInfo {
     height: 100px;
